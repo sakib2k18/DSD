@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+Time=0 | A=0000 B=0000 Cin=0 -> Sum=0000 Cout=0
+Time=10000 | A=0011 B=0101 Cin=0 -> Sum=1000 Cout=0
+Time=20000 | A=0111 B=0001 Cin=0 -> Sum=1000 Cout=0
+Time=30000 | A=1010 B=0101 Cin=1 -> Sum=0000 Cout=1
+Time=40000 | A=1111 B=1111 Cin=0 -> Sum=1110 Cout=1
+$finish called at time : 50 ns : File "E:/Verilog/Projects/Parallel_Adder/Parallel_Adder.srcs/sim_1/new/simulate_parallel_adder.v" Line 46

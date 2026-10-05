@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.srcs/sources_1/new/clock_divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.srcs/sources_1/new/fsm_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fsm_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.srcs/sources_1/new/i2c_lcd_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_lcd_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.srcs/sources_1/new/led_state_indicator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_state_indicator
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.srcs/sources_1/new/memory_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.srcs/sources_1/new/mode_selector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mode_selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.srcs/sources_1/new/motor_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module motor_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.srcs/sources_1/new/seven_segment_driver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_segment_driver
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.srcs/sources_1/new/state_output_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module state_output_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.srcs/sources_1/new/timer_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.srcs/sources_1/new/top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.srcs/sim_1/new/tb_top_module.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/SURFACE  4/Downloads/Washing Machine/Washing Machine.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

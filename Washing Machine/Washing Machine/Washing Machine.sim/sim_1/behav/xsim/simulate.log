@@ -1,0 +1,18 @@
+Time resolution is 1 ps
+
+===== TEST 4: DOOR OPEN SAFETY =====
+TIME=0 | reset=1 start=0 door=0 water=0 mode=00 | leds=0000001 | motor=0 dir=0 valve=0 drain=0 done=0
+TIME=20000 | reset=0 start=0 door=0 water=0 mode=00 | leds=0000001 | motor=0 dir=0 valve=0 drain=0 done=0
+TIME=40000 | reset=0 start=1 door=1 water=0 mode=00 | leds=0000001 | motor=0 dir=0 valve=0 drain=0 done=0
+TIME=45000 | reset=0 start=1 door=1 water=0 mode=00 | leds=0000010 | motor=0 dir=0 valve=1 drain=0 done=0
+TIME=50000 | reset=0 start=0 door=1 water=0 mode=00 | leds=0000010 | motor=0 dir=0 valve=1 drain=0 done=0
+TIME=150000 | reset=0 start=0 door=1 water=1 mode=00 | leds=0000010 | motor=0 dir=0 valve=0 drain=0 done=0
+TIME=155000 | reset=0 start=0 door=1 water=1 mode=00 | leds=0000100 | motor=1 dir=1 valve=0 drain=0 done=0
+TIME=165000 | reset=0 start=0 door=1 water=1 mode=00 | leds=0001000 | motor=1 dir=0 valve=0 drain=0 done=0
+PASS: tive drum state when door closed
+TIME=230000 | reset=0 start=0 door=0 water=1 mode=00 | leds=0001000 | motor=0 dir=0 valve=0 drain=0 done=0
+PASS: Motor OFF when door opened
+TIME=250000 | reset=0 start=0 door=1 water=1 mode=00 | leds=0001000 | motor=1 dir=0 valve=0 drain=0 done=0
+PASS: Motor ON again when door closed
+TIME=635000 | reset=0 start=0 door=1 water=1 mode=00 | leds=0010000 | motor=1 dir=1 valve=0 drain=0 done=0
+TIME=645000 | reset=0 start=0 door=1 water=1 mode=00 | leds=0100000 | motor=0 dir=0 valve=0 drain=1 done=0

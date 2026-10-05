@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Jan 27 21:27:45 2026
+# Process ID: 17488
+# Current directory: D:/4-2 Lab/DSD/Parallel_Adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16664 D:\4-2 Lab\DSD\Parallel_Adder\Parallel_Adder.xpr
+# Log file: D:/4-2 Lab/DSD/Parallel_Adder/vivado.log
+# Journal file: D:/4-2 Lab/DSD/Parallel_Adder\vivado.jou
+# Running On: Castle-of-Glass, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 4, Host memory: 16905 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/4-2 Lab/DSD/Parallel_Adder/Parallel_Adder.xpr}
+update_compile_order -fileset sources_1
+synth_design -top parallel_adder -part xc7a35ticpg236-1L -lint 
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
